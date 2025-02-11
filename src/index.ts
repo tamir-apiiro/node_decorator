@@ -4,7 +4,7 @@ const app = express()
 const port = 3000
 
 class yossi {
-    @LogWithPrefix({some_flag: false, another_key: 2}, "different value")
+    @LogWithPrefix({some_flag: false, another_key: 2}, 'different value')
     blah(req: any, res: any) {
         res.send('Hello World!')
     }
