@@ -19,7 +19,7 @@ app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
 
-console.log('Happy developing ✨')
+console.log('Happy developing')
 
 function LogWithPrefix(options: any) {
     return function (target: any, propertyKey: string, descriptor: PropertyDescriptor) {
